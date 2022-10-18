@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/single_include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/Vulkan-Headers/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -isystem /usr/local/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/kompute.dir/Algorithm.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/Algorithm.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/Algorithm.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/single_include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/Vulkan-Headers/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -isystem /usr/local/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/kompute.dir/Manager.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/Manager.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/Manager.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/single_include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/Vulkan-Headers/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -isystem /usr/local/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/kompute.dir/OpAlgoDispatch.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/OpAlgoDispatch.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/OpAlgoDispatch.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/single_include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/Vulkan-Headers/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -isystem /usr/local/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/kompute.dir/OpMemoryBarrier.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/OpMemoryBarrier.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/OpMemoryBarrier.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/single_include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/Vulkan-Headers/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -isystem /usr/local/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/kompute.dir/OpTensorCopy.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/OpTensorCopy.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/OpTensorCopy.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/single_include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/Vulkan-Headers/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -isystem /usr/local/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/kompute.dir/OpTensorSyncDevice.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/OpTensorSyncDevice.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/OpTensorSyncDevice.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/single_include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/Vulkan-Headers/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -isystem /usr/local/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/kompute.dir/OpTensorSyncLocal.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/OpTensorSyncLocal.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/OpTensorSyncLocal.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/single_include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/Vulkan-Headers/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -isystem /usr/local/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/kompute.dir/Sequence.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/Sequence.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/Sequence.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/single_include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/Vulkan-Headers/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -isystem /usr/local/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/kompute.dir/Tensor.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/Tensor.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/src/Tensor.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src/kompute_fmt",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/fmt.dir/src/format.cc.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/src/format.cc",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/src/format.cc"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src/kompute_fmt",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/fmt.dir/src/os.cc.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/src/os.cc",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/src/os.cc"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src/kompute_spdlog",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c++14 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/spdlog.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/spdlog.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src/kompute_spdlog",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c++14 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/stdout_sinks.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/stdout_sinks.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src/kompute_spdlog",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c++14 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/color_sinks.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/color_sinks.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src/kompute_spdlog",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c++14 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/file_sinks.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/file_sinks.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src/kompute_spdlog",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c++14 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/async.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/async.cpp"
+},
+{
+  "directory": "/Users/jessemckinzie/Documents/GitHub/Kompute/example_array_multiplication/build/kompute/src/kompute_spdlog",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFMT_LOCALE -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DUSE_EXTERNAL_GLSLANG -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/include -I/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/fmt/include -O3 -DNDEBUG -DRELEASE=1  -DKOMPUTE_ENABLE_SPDLOG=1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c++14 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/cfg.cpp",
+  "file": "/Users/jessemckinzie/Documents/GitHub/Kompute/kompute/external/spdlog/src/cfg.cpp"
+}
+]
