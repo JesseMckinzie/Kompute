@@ -66,7 +66,7 @@ int main()
     string str;
     vector<string> vec;
     vector<float> in;
-    ifstream infile1("/Users/jessemckinzie/Documents/GitHub/Kompute/K.txt");
+    ifstream infile1("/home/jesse/Desktop/kompute_test/Kompute/K.txt");
     while(getline(infile1, str)){
         vec = SplitString(str);
         for(const auto& s: vec){
@@ -76,7 +76,7 @@ int main()
         in.clear();
     }
 
-    ifstream infile2("/Users/jessemckinzie/Documents/GitHub/Kompute/img.txt");
+    ifstream infile2("/home/jesse/Desktop/kompute_test/Kompute/img.txt");
     while(getline(infile2, str)){
         vec = SplitString(str);
         for(const auto& s: vec){
@@ -102,71 +102,59 @@ int main()
 
     auto tensorSizes = mgr.tensor({ (float)img.size(), (float)img[0].size(), (float)K.size()});
 
+
     std::string shader(R"(
         // The version to use 
         #version 450
-        #extension GL_EXT_debug_printf : enable
+        //#extension GL_EXT_debug_printf : enable
         //#extension  VK_KHR_portability_subset : enable
 
         // The buffers are provided via the tensors
         layout(binding = 0) buffer bufA { float image[]; };
         layout(binding = 1) buffer bufB { float kernel[]; };
         layout(binding = 2) buffer bufOut { float result[]; };
-        layout(binding = 3) buffer bufSizes { int sizes[]; };
+        layout(binding = 3) buffer bufSizes { float sizes[]; };
+    
 
-        // The execution structure
         layout (local_size_x = 1, local_size_y = 1) in;
-
-
         void main() {
-            //GL_EXT_debug_printf("here");
-            //debugPrintfEXT("Here");
-            // calculate row and column positions
-            
-            int idx = int(gl_GlobalInvocationID.x);
-            // int col = int(gl_GlobalInvocationID.y);
+            ivec2 ourPos = ivec2(gl_GlobalInvocationID.xy);
 
-            int row = idx % sizes[1];
-            int col = idx / sizes[1];
-            
-            int row_size = int(sizes[0]); 
-            int col_size = int(sizes[1]);
-            int kernel_size = int(sizes[2]);
+            int kernel_width = int(sizes[2]);
+            int kernel_height = int(sizes[2]);
 
-            if(row >= row_size || col >= col_size) return;
-
-            int kernel_offset = int(floor(kernel_size / 2.0));
-
-            // check bounds
-            if(row >= row_size || col >= col_size) return;
-
-            int iFlip;
-            int jFlip; // flipped kernel indices
             int ii;
             int jj;
+
+            int ki;
+            int kj;
+
             float temp = 0;
 
-            for(int i = 0; i < kernel_size; i++){
+            for (int i=-int(floor(kernel_width/2.0)); i<floor(kernel_width/2.0); i++){
+                for (int j=-int(floor(kernel_height/2.0)); j<floor(kernel_height/2.0); j++){
+                    
+                    ki = int(floor(kernel_width/2.0) + i);
+                    kj = int(floor(kernel_height/2.0) + j);
+ 
+                    ii = ourPos.x%int(sizes[1]) + i;
+                    jj = ourPos.x/int(sizes[1]) + j;
 
-                iFlip = kernel_size - 1 - i;
-
-                for(int j = 0; j < kernel_size; j++){
-
-                    jFlip = kernel_size - 1 - j;
-
-                    //ii = row + (kernel_offset - iFlip);
-                    //jj = col + (kernel_offset - jFlip);
-
-                    if(row + (kernel_offset - iFlip) >= 0 && row + (kernel_offset - iFlip) < row_size && col + (kernel_offset - jFlip) >= 0 && col + (kernel_offset - jFlip) < col_size) {
-                    //if (ii >= 0 && ii < row_size && jj >= 0 && jj < col_size) {
-                        temp += image[row + (kernel_offset - iFlip) * col_size + col + (kernel_offset - jFlip)] * kernel[iFlip * kernel_size + jFlip];
-                        //temp += image[i * col_size + j] * kernel[i * kernel_size + j];
+                    //if(row + (kernel_offset - iFlip) >= 0 && row + (kernel_offset - iFlip) < row_size && col + (kernel_offset - jFlip) >= 0 && col + (kernel_offset - jFlip) < col_size) {
+                    if (ii >= 0 && ii < int(sizes[0]) && jj >= 0 && jj < int(sizes[1])) {
+                        //temp += image[row + (kernel_offset - iFlip) * col_size + col + (kernel_offset - jFlip)] * kernel[iFlip * kernel_size + jFlip];
+                        temp += image[ii * int(sizes[1]) + jj] * kernel[ki*int(sizes[2]) + kj];
                     }
+                    
                 }
             }
 
-            result[row * col_size + col] = temp;
+            //debugPrintfEXT("temp is: %f", temp);
+
+            result[ourPos.x%int(sizes[1])*int(sizes[1]) + ourPos.x/int(sizes[1])] = temp;
+
         }
+
 
       )");
     std::cout << "main" << std::endl;
